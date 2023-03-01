@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* :root {
+  --bitcoin-orange: #F7931A;
+  --soft-orange: #FFE9D4;
+  --secondary-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --warm-black: #201E1C;
+  --black: #282623;
+  --gray:#BABABA;
+  --off-white: #FAF8F7;
+  --just-white: #FFFFFF;
+} */
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-width: 320px;
+  background-color: rgb(242, 242, 242);
+}
+
+/* header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+} */
+
+header img { 
+  margin-top: 10px;  
+}
+
+/* header img {
+  width: 150px;
+  height: 24px;
+  margin-top: 60px;
+  align-self: center;    
+} */
+
+header h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  padding: 0 15px;
+}
+
+header nav {
+  margin-top: 14px;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.4rem;
+}
+
+header nav ul li {
+  padding-left: 10px;
+}
+
+header nav ul li a {
+ text-decoration: none;
+ color:darkslategrey;
+}
+
+header nav ul li a:hover {
+  color: rgb(26, 26, 26);
+}
+
+header nav ul li a:active {
+  color: yellow
+}
+
+main {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-color:rgb(138, 138, 138);
+}
+
+.main-volantes {
+  width: 100%;
+  min-width: 320px;
+  height: 200px;
+  background-image: url("../img/createflyers.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-volantes h2 {
+  padding-top: 50px;
+  margin-left: 11%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 3.5rem;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.main-volantes h3 {
+  margin-top: -20px;
+  margin-left: 11%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 4.8rem;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.volantes-samples {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color:rgb(34, 34, 34);  
+}
+
+.volantes-samples__title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.volantes-samples__title h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.volantes-samples__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  min-width: 288px;
+  max-width: 400px;
+  min-height: 170px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color:rgb(26, 26, 26);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.volantes-samples__block img {
+  border-radius: 15px;
+}
+
+.volantes-samples__description {
+  margin-top: 15px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-color: rgb(5, 5, 5);
+}
+
+.logo-cd {
+  margin-top: 20px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.4rem;
+  color: rgb(255, 242, 0);
+  font-family: 'Roboto', sans-serif;
+}
+
+.social-media {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

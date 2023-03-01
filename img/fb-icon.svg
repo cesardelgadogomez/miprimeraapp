@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.4992mm" height="4.4992mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 6.64 6.64"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial Negrita"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="f" horiz-adv-x="333" d="M11.9889 518.991l76.0195 0 0 39.1656c0,43.6816 4.65041,76.342 14.005,97.8468 9.32771,21.6661 26.4778,39.1656 51.4771,52.6599 25.1875,13.4943 56.8533,20.3489 95.1856,20.3489 39.1656,0 77.6592,-5.83318 115.319,-17.4995l-17.4995 -95.3469c-22.3381,5.16115 -43.816,7.82237 -64.4875,7.82237 -20.3489,0 -34.8378,-4.65041 -43.6816,-13.9781 -8.81697,-9.35459 -13.333,-27.338 -13.333,-54.0039l0 -37.0151 103.008 0 0 -107.981 -103.008 0 0 -411.01 -136.986 0 0 411.01 -76.0195 0 0 107.981z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";font-variant:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .str0 {stroke:white;stroke-width:0.78;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil1 {fill:white}
+    .fnt0 {font-weight:bold;font-size:5.49px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0 str0" cx="3.32" cy="3.32" r="2.93"/>
+  <text x="2.29" y="5.32"  class="fil1 fnt0">f</text>
+ </g>
+</svg>

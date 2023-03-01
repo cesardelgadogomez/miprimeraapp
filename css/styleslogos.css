@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* :root {
+  --bitcoin-orange: #F7931A;
+  --soft-orange: #FFE9D4;
+  --secondary-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --warm-black: #201E1C;
+  --black: #282623;
+  --gray:#BABABA;
+  --off-white: #FAF8F7;
+  --just-white: #FFFFFF;
+} */
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-width: 320px;
+  background-color: rgb(242, 242, 242);
+}
+
+header img { 
+  margin-top: 10px;  
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  padding: 0 15px;
+}
+
+header nav {
+  margin-top: 14px;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.4rem;
+}
+
+header nav ul li {
+  padding-left: 10px;
+}
+
+header nav ul li a {
+ text-decoration: none;
+ color:darkslategrey;
+}
+
+header nav ul li a:hover {
+  color: rgb(26, 26, 26);
+}
+
+header nav ul li a:active {
+  color: yellow
+}
+
+/* header nav ul li a::after {
+  content: " | ";
+} */
+
+main {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-color:rgb(138, 138, 138);
+}
+
+.main-logo {
+  width: 100%;
+  min-width: 320px;
+  height: 200px;
+  background-image: url("../img/que-es-el-branding-brandesign.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-logo h2 {
+  padding-top: 50px;
+  margin-left: 11%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 4rem;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.main-logo h3 {
+  margin-top: -20px;
+  margin-left: 11%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 5.5rem;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.logo-samples {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color:rgb(34, 34, 34);  
+}
+
+.logo-samples__title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo-samples__title h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo-samples__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  min-width: 288px;
+  max-width: 400px;
+  min-height: 170px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color:rgb(26, 26, 26);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.logo-samples__description {
+  margin-top: 15px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+} */ 
+
+/* .product-detail--card .clock {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(./assets-muestra/icons/clock.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-color: rgb(5, 5, 5);
+}
+
+.logo-cd {
+  margin-top: 20px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.4rem;
+  color: rgb(255, 242, 0);
+  font-family: 'Roboto', sans-serif;
+}
+
+.social-media {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

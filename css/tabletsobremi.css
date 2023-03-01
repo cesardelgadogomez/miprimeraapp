@@ -1,0 +1,11 @@
+.info-sobremi__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.sobremi-intro__text {
+    padding-right: 25px;
+  }
